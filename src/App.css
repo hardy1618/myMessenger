@@ -707,3 +707,6 @@ html, body {
   top: 10px;
 }
 
+.Modal {
+    max-width: 90%;
+}

@@ -132,7 +132,7 @@ const NewChat = (props: Props) => {
                 onClick={handleOpen} className="NewChatFormButton">
                 Create Chat
             </Button>
-            <Modal
+            <Modal className="Modal"
                 open={open}
                 onClose={handleClose}
                 aria-labelledby="simple-modal-title"
