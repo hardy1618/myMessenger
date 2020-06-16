@@ -97,7 +97,7 @@ const NewChat = (props: Props) => {
     };
 
     const body = (
-        <div style={modalStyle} className={classes.paper}>
+        <div style={modalStyle} className={classes.paper} id="Modal">
             <Autocomplete
                 multiple
                 id="tags-standard"
@@ -132,7 +132,7 @@ const NewChat = (props: Props) => {
                 onClick={handleOpen} className="NewChatFormButton">
                 Create Chat
             </Button>
-            <Modal className="Modal"
+            <Modal
                 open={open}
                 onClose={handleClose}
                 aria-labelledby="simple-modal-title"
